@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJW Electrical</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-[#7fff4d]">
+  <!-- Hero Section -->
+  <header class="bg-black text-[#7fff4d] py-20 text-center">
+    <img src="ELECTRICIAN.jpg" alt="DJW Electrical Logo" class="mx-auto mb-6 w-32 h-32">
+    <h1 class="text-5xl font-bold">DJW Electrical</h1>
+    <p class="text-xl mt-4">Reliable. Professional. Local.</p>
+    <a href="#contact" class="mt-6 inline-block bg-green-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-green-300">Get a Quote</a>
+  </header>
+
+  <!-- About Section -->
+  <section class="py-16 px-4 max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-semibold mb-4">About Us</h2>
+    <p class="text-lg">DJW Electrical is a trusted electrical service provider serving residential and commercial customers with top-quality workmanship and customer service.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="bg-black py-16 px-4">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-10">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-800 p-6 rounded-lg shadow text-green-400">
+          <h3 class="text-xl font-bold mb-2">Residential Wiring</h3>
+<p>From full rewires to small repairs, including new electrical installations, we keep your home safe and up to code.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow text-green-400">
+          <h3 class="text-xl font-bold mb-2">Lighting Installation</h3>
+          <p>Indoor, outdoor, decorative, and security lighting installations done right.</p>
+        </div>
+        <div class="bg-gray-800 p-6 rounded-lg shadow text-green-400">
+          <h3 class="text-xl font-bold mb-2">Industrial & Commercial Services</h3>
+          <p>Specialized electrical solutions for factories, warehouses, and business facilities of all sizes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-black py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-10">What Our Clients Say</h2>
+      <blockquote class="italic">"Professional, efficient, and affordable. DJW Electrical is my go-to for all electrical needs!" – Sarah T.</blockquote>
+      <blockquote class="italic mt-6">"Excellent service from start to finish. Highly recommend!" – Mark R.</blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-4 bg-gray-900">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-6 text-green-400">Contact Us</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border px-4 py-2 rounded bg-black text-green-400 border-green-400">
+        <input type="email" placeholder="Your Email" class="w-full border px-4 py-2 rounded bg-black text-green-400 border-green-400">
+        <textarea placeholder="Your Message" class="w-full border px-4 py-2 rounded h-32 bg-black text-green-400 border-green-400"></textarea>
+        <button type="submit" class="bg-green-400 text-black px-6 py-2 rounded hover:bg-green-300">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-green-400 text-center py-6">
+    <p>&copy; 2025 DJW Electrical. All rights reserved.</p>
+    <p>Phone: 0273059555 | Email: djw.electrical@outlook.com</p>
+  </footer>
+</body>
+</html>
