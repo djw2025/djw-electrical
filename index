@@ -9,16 +9,17 @@
 <body class="bg-black text-[#7fff4d]">
   <!-- Hero Section -->
   <header class="bg-black text-[#7fff4d] py-20 text-center">
-    <img src="ELECTRICIAN.jpg" alt="DJW Electrical Logo" class="mx-auto mb-6 w-32 h-32">
+    <img src="/ELECTRICIAN.jpg" alt="DJW Electrical Logo" class="mx-auto mb-6 w-32 h-32">
     <h1 class="text-5xl font-bold">DJW Electrical</h1>
     <p class="text-xl mt-4">Reliable. Professional. Local.</p>
-    <a href="#contact" class="mt-6 inline-block bg-green-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-green-300">Get a Quote</a>
+    <a href="mailto:djw.electrical@outlook.com" class="mt-6 inline-block bg-[#7fff4d] text-black px-6 py-2 rounded-full font-semibold hover:bg-[#6eff40]">Contact Us</a>
+    <a href="tel:0273059555" class="ml-4 inline-block bg-[#7fff4d] text-black px-6 py-2 rounded-full font-semibold hover:bg-[#6eff40]">Call Now</a>
   </header>
 
   <!-- About Section -->
   <section class="py-16 px-4 max-w-4xl mx-auto text-center">
     <h2 class="text-3xl font-semibold mb-4">About Us</h2>
-    <p class="text-lg">DJW Electrical is a trusted electrical service provider serving residential and commercial customers with top-quality workmanship and customer service.</p>
+    <p class="text-lg">DJW Electrical is a trusted electrical service provider serving residential and commercial customers with top-quality workmanship and customer service. We proudly serve the Rangitīkei, Whanganui, and Manawatū areas.</p>
   </section>
 
   <!-- Services Section -->
@@ -26,11 +27,11 @@
     <div class="max-w-5xl mx-auto">
       <h2 class="text-3xl font-semibold text-center mb-10">Our Services</h2>
       <div class="grid md:grid-cols-3 gap-8">
-        <div class="bg-gray-800 p-6 rounded-lg shadow text-green-400">
+        <div class="bg-gray-800 p-6 rounded-lg shadow text-[#7fff4d]">
           <h3 class="text-xl font-bold mb-2">Residential Wiring</h3>
-<p>From full rewires to small repairs, including new electrical installations, we keep your home safe and up to code.</p>
+          <p>From full rewires to small repairs, including new electrical installations, we keep your home safe and up to code.</p>
         </div>
-        <div class="bg-gray-800 p-6 rounded-lg shadow text-green-400">
+        <div class="bg-gray-800 p-6 rounded-lg shadow text-[#7fff4d]">
           <h3 class="text-xl font-bold mb-2">Lighting Installation</h3>
           <p>Indoor, outdoor, decorative, and security lighting installations done right.</p>
         </div>
@@ -42,7 +43,21 @@
     </div>
   </section>
 
-  <!-- Testimonials -->
+  <!-- Service Area Map Section -->
+<section class="py-16 px-4 bg-black">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-semibold mb-6 text-[#7fff4d]">Our Service Areas</h2>
+    <p class="mb-4">Proudly serving Rangitīkei, Whanganui, and Manawatū.</p>
+    <iframe 
+      src="https://www.google.com/maps/d/u/0/embed?mid=1RyMbQ2U68GE_Yi4NZ98T7PpK1xRxa3s&ehbc=2E312F" 
+      width="100%" 
+      height="480" 
+      class="rounded-xl border-4 border-[#7fff4d] mx-auto">
+    </iframe>
+  </div>
+</section>
+
+<!-- Testimonials -->
   <section class="bg-black py-16 px-4">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-semibold mb-10">What Our Clients Say</h2>
@@ -56,7 +71,7 @@
     <div class="max-w-xl mx-auto">
       <h2 class="text-3xl font-semibold text-center mb-6 text-green-400">Contact Us</h2>
       <form class="space-y-4">
-        <input type="text" placeholder="Your Name" class="w-full border px-4 py-2 rounded bg-black text-green-400 border-green-400">
+        <input type="text" placeholder="Your Name" class="w-full border px-4 py-2 rounded bg-black text-green-400 border-[#7fff4d]">
         <input type="email" placeholder="Your Email" class="w-full border px-4 py-2 rounded bg-black text-green-400 border-green-400">
         <textarea placeholder="Your Message" class="w-full border px-4 py-2 rounded h-32 bg-black text-green-400 border-green-400"></textarea>
         <button type="submit" class="bg-green-400 text-black px-6 py-2 rounded hover:bg-green-300">Send Message</button>
@@ -67,7 +82,7 @@
   <!-- Footer -->
   <footer class="bg-black text-green-400 text-center py-6">
     <p>&copy; 2025 DJW Electrical. All rights reserved.</p>
-    <p>Phone: 0273059555 | Email: djw.electrical@outlook.com</p>
+    <p class="text-xl font-bold">Phone: <a href="tel:0273059555" class="underline hover:text-white">0273059555</a> | Email: <a href="mailto:djw.electrical@outlook.com" class="underline hover:text-white">djw.electrical@outlook.com</a></p>
   </footer>
 </body>
 </html>
